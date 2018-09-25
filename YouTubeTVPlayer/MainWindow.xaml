@@ -96,7 +96,7 @@
                     </TextBlock>
                 </Button>
 
-                <Button FontFamily="Marlett" Content="v" Focusable="False" Visibility="Collapsed">
+                <Button FontFamily="Marlett" Content="v" Focusable="False">
                     <Button.CommandBindings>
                         <CommandBinding Command="{x:Static local:ApplicationCommands.FullScreenCommand}"
                                         Executed="OnFullScreenCommandExecuted"/>
